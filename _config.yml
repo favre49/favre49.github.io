@@ -4,6 +4,7 @@ baseurl: ""
 url: "https://favre49.github.io"
 github_username: favre49
 github: [metadata]
+logo : logo.jpeg
 
 # Build settings
 markdown: kramdown
