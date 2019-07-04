@@ -1,1 +1,7 @@
 theme: jekyll-theme-minimal
+title: Welcome to favre49's website!
+description: This is a work in progress.
+
+
+plugins:
+  - jekyll-sitemap
