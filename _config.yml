@@ -1,16 +1,14 @@
-title: Rahul Prabhu's Personal Website
-name: Rahul Prabhu
+title: Rahul Prabhu
 description: Team AcYut | BITS Pilani CS
+baseurl: ""
 url: "https://favre49.github.io"
+github_username: favre49
 github: [metadata]
-minimal_mistakes_skin: "default"
-repository: "favre49/favre49.github.io"
-include : [_pages]
+logo : logo.jpeg
 
 # Build settings
 markdown: kramdown
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-sitemap
-  - jekyll-include-cache
   - jekyll-feed
