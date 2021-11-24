@@ -2,8 +2,12 @@
 layout: default
 ---
 
-<div class="container">
-  <a style="font-size: 30px"> {{ page.title }} </a>
-</div>
+<article>
+  <div class="blog-title"> {{ page.title }} </div>
+  <span class="blog-date"> {{ page.date | date: "%-d %B %Y" }} </span>
+  <p>
+    {{ page.content }}
+  </p>
+</article>
 
 
