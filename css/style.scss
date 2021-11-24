@@ -1,0 +1,30 @@
+---
+---
+
+/* modify Bootstrap variables here */
+$body-bg: #f5f5f5;
+$body-color: #24292e;
+
+@import "bootstrap/bootstrap";
+
+html {
+  display: table;
+  margin: auto;
+}
+
+/* add additional CSS rules below */
+body {
+  width: 35em;
+  font-size: large;
+  line-height: 1.5;
+  margin: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.nav-title {
+  font-weight: 300;
+  font-size: 40px;
+}
