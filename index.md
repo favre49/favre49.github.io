@@ -8,6 +8,8 @@ title: Home
     <a href="{{ post.url }}" style="float: left">
       {{ post.title }}
     </a>
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}" style="float: right; font-size: small">{{ post.date | date_to_long_string }}</time>
+    <div style="float:right">
+    <time datetime="{{ post.date | date: "%Y-%m-%d" }}" style="font-size: small">{{ post.date | date_to_long_string }}</time>
+    </div>
   </article>
 {% endfor %}
