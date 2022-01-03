@@ -17,7 +17,7 @@ Q(x) &= \sum_{y=0}^x P(y) \\
 \end{align}
 $$
 
-Now, all we need is a formula for the prefix sum of \(y^i\). This is given by [Faulhaber's Formula](https://en.wikipedia.org/wiki/Faulhaber%27s_formula):
+Now, all we need is a formula for the prefix sum of \\(y^i\\). This is given by [Faulhaber's Formula](https://en.wikipedia.org/wiki/Faulhaber%27s_formula):
 
 $$
 \sum_{y=0}^x y^i = \frac{1}{i+1} \sum_{j=0}^i \binom{i+1}{j} B_j x^{i+1-j}
